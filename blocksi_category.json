@@ -1,0 +1,477 @@
+{
+    "categories": [
+      {
+        "mainCategoryNumber": 1,
+        "mainCategoryName": "Web Security",
+        "subcategories": [
+          {
+            "subcategoryNumber": 100,
+            "subCategoryName": "Malicious content",
+            "description": "Sites that host or distribute malware or whose purpose for existence is as part of a malicious network or the malware ecosystem. Malware is defined as software that takes control of a computer, modifies computer settings, or collects or reports personal information without the permission of the end user."
+          },
+          {
+            "subcategoryNumber": 101,
+            "subCategoryName": "Phishing & Fraud",
+            "description": "Sites that are designed to appear as a legitimate bank or retailer with the intent to fraudulently capture sensitive data (i.e. credit card numbers, pin numbers)."
+          },
+          {
+            "subcategoryNumber": 102,
+            "subCategoryName": "Web SPAM",
+            "description": "Sites that are part of the spam ecosystem, including sites linked in unsolicited bulk electronic messages and sites used to generate or propagate such messages."
+          },
+          {
+            "subcategoryNumber": 103,
+            "subCategoryName": "Newly Registered Domain",
+            "description": "Domains that were very recently registered."
+          },
+          {
+            "subcategoryNumber": 104,
+            "subCategoryName": "Newly Observed Domain",
+            "description": "Domains that are newly configured or newly active, but not necessarily newly registered."
+          },
+          {
+            "subcategoryNumber": 105,
+            "subCategoryName": "Dynamic DNS",
+            "description": "Sites that utilize dynamic DNS services to map a Fully Qualified Domain Name (FQDN) to a specific IP address or set of addresses under the control of the site owner; these are often used in cyber attacks and botnet command & control servers."
+          }
+        ]
+      },
+      {
+        "mainCategoryNumber": 2,
+        "mainCategoryName": "Illegal Activities",
+        "subcategories": [
+          {
+            "subcategoryNumber": 200,
+            "subCategoryName": "Drug Abuse",
+            "description": "Sites that provide information on the manufacturing or selling of illegal drugs or prescription drugs obtained illegally."
+          },
+          {
+            "subcategoryNumber": 201,
+            "subCategoryName": "Hacking",
+            "description": "Sites that distribute, promote or provide tools or other information intended to help gain unauthorized or illegal access to computers, computer networks, or computerized communication and control systems."
+          },
+          {
+            "subcategoryNumber": 202,
+            "subCategoryName": "Illegal or Unethical",
+            "description": "Sites that provide information or technology for cracking or pirating software or other protected intellectual property, and sites that distribute such media."
+          },
+          {
+            "subcategoryNumber": 203,
+            "subCategoryName": "Discrimination",
+            "description": "Sites encouraging bigotry or discrimination."
+          },
+          {
+            "subcategoryNumber": 204,
+            "subCategoryName": "Explicit Violence",
+            "description": "Sites that depict extreme physical harm to people, animals or property, or that advocate or provide instructions on how to cause such harm. Also includes sites that advocate, depict hostility or aggression toward, or denigrate an individual or group on the basis of race, religion, gender, nationality, ethnic origin, or other involuntary characteristics. Includes content that glorifies self-mutilation or suicide."
+          },
+          {
+            "subcategoryNumber": 205,
+            "subCategoryName": "Extremist Groups",
+            "description": "Sites that are extreme in nature and are not suitable for general consumption. That includes sites for radical militia groups or movements with aggressive anti-government convictions or beliefs."
+          },
+          {
+            "subcategoryNumber": 206,
+            "subCategoryName": "Proxy Avoidance",
+            "description": "Sites that provide information on how to bypass web filtering or gain access to URLs in any way that bypasses the filtering system."
+          },
+          {
+            "subcategoryNumber": 207,
+            "subCategoryName": "Plagiarism",
+            "description": "Sites that advocate or assist plagiarism or provide or sell questionable educational material, school essays or diplomas."
+          },
+          {
+            "subcategoryNumber": 208,
+            "subCategoryName": "Child Abuse",
+            "description": "Sites that have been verified by the Internet Watch Foundation to contain or distribute images of non-adult children that are depicted in a state of abuse."
+          }
+        ]
+      },
+      {
+        "mainCategoryNumber": 3,
+        "mainCategoryName": "Adult Content",
+        "subcategories": [
+          {
+            "subcategoryNumber": 300,
+            "subCategoryName": "Alternative Beliefs",
+            "description": "Sites that promote and provide information on a wide range of non-traditional and/or non-religious spiritual, existential, experiential, and philosophical belief systems. Includes sites related to atheism, agnosticism, and mysticism; sites related to quasi-religious, philosophical or spiritual belief systems and practices that do not include formally established religious meetings, places of worship, organizational structure, or dogma; and sites that endorse or offer information about affecting or influencing real events through supernatural or magical means. Also includes sites that discuss or deal with paranormal or unexplained events. This category does not include sites centered around traditional, organized religious belief, practice, and observance (Religion)."
+          },
+          {
+            "subcategoryNumber": 301,
+            "subCategoryName": "Abortion",
+            "description": "Sites which provide information or arguments in favor of or against abortion, describe abortion procedures, offer help in obtaining or avoiding abortion, or provide information on the effects, or lack thereof, of abortion."
+          },
+          {
+            "subcategoryNumber": 302,
+            "subCategoryName": "Other Adult Materials",
+            "description": "Sites that contain material of adult nature that does not necessarily contain excessive violence, sexual content, or nudity. These sites include very profane or vulgar content and sites that are not appropriate for children."
+          },
+          {
+            "subcategoryNumber": 303,
+            "subCategoryName": "Advocacy Organizations",
+            "description": "Sites sponsored by groups or individuals that provide information on political parties, special interest groups, organizations, factions or individuals that promote change or reform in public policy, public opinion, social practice, social justice, or related economic activities."
+          },
+          {
+            "subcategoryNumber": 304,
+            "subCategoryName": "Gambling",
+            "description": "Sites that provide gambling odds and information or allow online betting, lotteries or casinos."
+          },
+          {
+            "subcategoryNumber": 305,
+            "subCategoryName": "Nudity and Risque",
+            "description": "Sites containing nude or seminude depictions of the human body. These depictions are not necessarily sexual in intent or effect, but may include sites containing nude paintings or photo galleries of artistic nature."
+          },
+          {
+            "subcategoryNumber": 306,
+            "subCategoryName": "Pornography",
+            "description": "Sites that contain sexually explicit material for the purpose of arousing a sexual or prurient interest."
+          },
+          {
+            "subcategoryNumber": 307,
+            "subCategoryName": "Dating",
+            "description": "Sites that enable users to meet and interact with each other for the purposes of dating or making friends."
+          },
+          {
+            "subcategoryNumber": 308,
+            "subCategoryName": "Weapons (Sales)",
+            "description": "Sites that sell, review, or describe weapons such as guns, knives or martial arts devices, or provide information on their use."
+          },
+          {
+            "subcategoryNumber": 309,
+            "subCategoryName": "Marijuana",
+            "description": "Sites that discuss, encourage, promote, offer, sell, supply or otherwise advocate the use, cultivation, manufacture or distribution of marijuana, whether for recreational or medicinal purposes."
+          },
+          {
+            "subcategoryNumber": 310,
+            "subCategoryName": "Sex Education",
+            "description": "Sites that provide information (sometimes graphic) on reproduction, sexual development, safe sex practices, sexuality, birth control, tips for better sex, and sexual enhancement products."
+          },
+          {
+            "subcategoryNumber": 311,
+            "subCategoryName": "Alcohol",
+            "description": "Sites that discuss, encourage, promote, offer, sell, supply, or otherwise advocate the use or creation of alcoholic beverages, including but not limited to beer, wine, and hard liquors."
+          },
+          {
+            "subcategoryNumber": 312,
+            "subCategoryName": "Tobacco",
+            "description": "Sites that discuss, encourage, promote, offer, sell, supply, or otherwise advocate the use or creation of tobacco or tobacco-related products."
+          },
+          {
+            "subcategoryNumber": 313,
+            "subCategoryName": "Lingerie and Swimsuit",
+            "description": "Sites that contain images or offer the sale of swimsuits or intimate apparel or other types of suggestive clothing."
+          },
+          {
+            "subcategoryNumber": 314,
+            "subCategoryName": "Sports Hunting and War Games",
+            "description": "Sites that feature sport hunting, military games, paintball facilities, etc. Includes all related clubs, organizations and groups."
+          }
+        ]
+      },
+      {
+        "mainCategoryNumber": 4,
+        "mainCategoryName": "Bandwidth Consuming",
+        "subcategories": [
+          {
+            "subcategoryNumber": 400,
+            "subCategoryName": "Freeware and Software",
+            "description": "Sites wholly dedicated to the download of software for any type of computer or computing device whether for payment or at no charge. Does not include sites or pages that offer a software download as a subset of their overall content."
+          },
+          {
+            "subcategoryNumber": 401,
+            "subCategoryName": "File Sharing and Storage",
+            "description": "Sites and services that provide online file or note storage, file sharing, synchronization of files between devices and/or network-based data backup and restoration. These services may provide the means to upload, download, paste, organize, post and share documents, files, computer code, text, non-copyright-restricted videos, music and other electronically formatted information in virtual data storage. Does not include Office/Business Applications or Media Sharing."
+          },
+          {
+            "subcategoryNumber": 402,
+            "subCategoryName": "Streaming Media and Download",
+            "description": "Sites that allow online watching of the video content and downloading MP3 or other multimedia files."
+          },
+          {
+            "subcategoryNumber": 403,
+            "subCategoryName": "Peer-to-peer File Sharing",
+            "description": "Sites that allow users to share files and data storage between each other using P2P protocol. Illegal movie and music download is covered under Piracy/Copyright Concerns category."
+          },
+          {
+            "subcategoryNumber": 404,
+            "subCategoryName": "Internet Radio and TV",
+            "description": "Sites that broadcast radio and television content via the internet."
+          },
+          {
+            "subcategoryNumber": 405,
+            "subCategoryName": "Internet Telephony",
+            "description": "Sites that facilitate Internet telephony or provide Internet telephony services such as voice over IP (VOIP)."
+          }
+        ]
+      },
+      {
+        "mainCategoryNumber": 5,
+        "mainCategoryName": "Business",
+        "subcategories": [
+          {
+            "subcategoryNumber": 500,
+            "subCategoryName": "Finance and Banking",
+            "description": "Sites for banks, brokerages, trusts, and other financial organizations."
+          },
+          {
+            "subcategoryNumber": 501,
+            "subCategoryName": "Search Engine and Portals",
+            "description": "Sites that support searching the Internet, indices, and directories."
+          },
+          {
+            "subcategoryNumber": 502,
+            "subCategoryName": "General Organizations",
+            "description": "Sites for groups, clubs or organisations with similar interests. Interest can be professional, social, humanitarian or recreational in nature."
+          },
+          {
+            "subcategoryNumber": 503,
+            "subCategoryName": "Business",
+            "description": "Sites devoted to business firms, business information, economics, marketing, business management and entrepreneurship."
+          },
+          {
+            "subcategoryNumber": 504,
+            "subCategoryName": "Information and Computer Security",
+            "description": "Sites that provide information or tools for securing or safeguarding computers, networks, and other data systems."
+          },
+          {
+            "subcategoryNumber": 505,
+            "subCategoryName": "Government and Legal Organizations",
+            "description": "Sites sponsored by or which provide information on government, government agencies and government services. Legal Organizations: Sites that discuss or explain laws of various government entities."
+          },
+          {
+            "subcategoryNumber": 506,
+            "subCategoryName": "Information Technology",
+            "description": "Sites that sponsor or provide information, news, reviews, opinions and coverage of computing, computing devices and technology, consumer electronics, and general technology."
+          },
+          {
+            "subcategoryNumber": 507,
+            "subCategoryName": "Armed Forces",
+            "description": "Sites related to organized military/armed forces and military agencies. Sites related to civil and extreme military organizations are excluded."
+          },
+          {
+            "subcategoryNumber": 508,
+            "subCategoryName": "Web Hosting",
+            "description": "Sites of organizations that provide top-level domain pages, as well as web communities, blog hosting sites, and other hosting services."
+          },
+          {
+            "subcategoryNumber": 509,
+            "subCategoryName": "Secure Websites",
+            "description": "Sites that institute security measures such as authentication, passwords, registration, etc."
+          },
+          {
+            "subcategoryNumber": 510,
+            "subCategoryName": "Web-based Applications",
+            "description": "Sites with interactive, Web-based office, productivity, collaboration, and business applications."
+          },
+          {
+            "subcategoryNumber": 511,
+            "subCategoryName": "Online Meeting",
+            "description": "Sites related to web conferencing."
+          },
+          {
+            "subcategoryNumber": 512,
+            "subCategoryName": "Remote Access",
+            "description": "Sites that facilitate authorized access and use of computers or private networks remotely across the Internet."
+          },
+          {
+            "subcategoryNumber": 513,
+            "subCategoryName": "Web Analytics",
+            "description": "Sites that are used to collect and assess web traffic data."
+          },
+          {
+            "subcategoryNumber": 514,
+            "subCategoryName": "Charitable Organizations",
+            "description": "Sites for organizations that are set up with a mission that serves a public purpose, and are philanthropic in nature. This category excludes advocacy or political organizations."
+          }
+        ]
+      },
+      {
+        "mainCategoryNumber": 6,
+        "mainCategoryName": "Personal",
+        "subcategories": [
+          {
+            "subcategoryNumber": 600,
+            "subCategoryName": "Advertising",
+            "description": "Sites that provide online advertisements, banners, or the means to identify and market to existing or potential customers based on their browsing or online activity."
+          },
+          {
+            "subcategoryNumber": 601,
+            "subCategoryName": "Brokerage and Trading",
+            "description": "Sites that support active trading of securities and management of investments."
+          },
+          {
+            "subcategoryNumber": 602,
+            "subCategoryName": "Games",
+            "description": "Sites that support playing or downloading video games, computer games, or electronic games."
+          },
+          {
+            "subcategoryNumber": 603,
+            "subCategoryName": "Web-based Email",
+            "description": "Sites offering Web-based email services, such as online email reading, and mailing list services."
+          },
+          {
+            "subcategoryNumber": 604,
+            "subCategoryName": "Entertainment",
+            "description": "Sites that provide information about or promote popular culture including but not limited to film, film critiques and discussions, film trailers, box office, television, home entertainment, music, comics, graphic novels, literary news, and reviews."
+          },
+          {
+            "subcategoryNumber": 605,
+            "subCategoryName": "Art/Culture",
+            "description": "Sites that promote cultural understanding of art like sculpture, paintings, literature, music, dance, ballet, performance art, etc. It includes foundations that support or house them such as museums, galleries, symphonies, and planetariums."
+          },
+          {
+            "subcategoryNumber": 606,
+            "subCategoryName": "Education",
+            "description": "Sites that offer education information, distance learning, or trade school information or programs. Includes sites that are sponsored by schools, educational facilities, faculty, or alumni groups."
+          },
+          {
+            "subcategoryNumber": 607,
+            "subCategoryName": "Health and Wellness",
+            "description": "Sites that provide health and wellness material or information about health products and service providers."
+          },
+          {
+            "subcategoryNumber": 608,
+            "subCategoryName": "Job Search",
+            "description": "Sites that provide assistance in finding employment, and tools for locating prospective employers."
+          },
+          {
+            "subcategoryNumber": 609,
+            "subCategoryName": "Medicine",
+            "description": "Sites that provide information about approved drugs and their medical use. This category includes sites of online shopping for medicine."
+          },
+          {
+            "subcategoryNumber": 610,
+            "subCategoryName": "News and Media",
+            "description": "Sites that contain general news information on a local, national and international level."
+          },
+          {
+            "subcategoryNumber": 611,
+            "subCategoryName": "Social Networking",
+            "description": "Sites that enable people to connect with others to form an online community. Typically members describe themselves in personal Web page profiles and form interactive networks, linking them with other members based on common interests or acquaintances."
+          },
+          {
+            "subcategoryNumber": 612,
+            "subCategoryName": "Political Organizations",
+            "description": "Sites that are sponsored by or provide information about political parties and interest groups focused on elections or legislation. This is not to be confused with Government and Legal Organizations, and Advocacy Groups."
+          },
+          {
+            "subcategoryNumber": 613,
+            "subCategoryName": "Reference",
+            "description": "Sites containing personal, professional, or educational reference, including online dictionaries, maps, censuses, almanacs, library catalogues, genealogy-related sites, and scientific information."
+          },
+          {
+            "subcategoryNumber": 614,
+            "subCategoryName": "Global Religion",
+            "description": "Sites that promote and provide information on traditional, organized religious belief, practice and observance and directly-related subjects such as religious catechism or dogma and places of religious worship or observance."
+          },
+          {
+            "subcategoryNumber": 615,
+            "subCategoryName": "Shopping",
+            "description": "Sites that feature online promotion or sale of general goods and services such as electronics, flowers, jewelry, music, etc."
+          },
+          {
+            "subcategoryNumber": 616,
+            "subCategoryName": "Society and Lifestyle",
+            "description": "Sites providing information on matters of daily life. This includes pet care, home improvement, fashion/beauty tips, hobbies, and other tasks that comprise everyday life."
+          },
+          {
+            "subcategoryNumber": 617,
+            "subCategoryName": "Sports",
+            "description": "Sites that promote or provide information about spectator sports or recreational activities."
+          },
+          {
+            "subcategoryNumber": 618,
+            "subCategoryName": "Travel",
+            "description": "Sites that promote or provide opportunity for travel planning, including finding and making travel reservations, sharing of travel experiences (pro or con), vehicle rentals, descriptions of travel destinations, or promotions for hotels/casinos or other travel-related accommodations."
+          },
+          {
+            "subcategoryNumber": 619,
+            "subCategoryName": "Personal Vehicles",
+            "description": "Sites that provide information on or promote vehicles, boats, or aircraft, including sites that support online purchase of vehicles or parts."
+          },
+          {
+            "subcategoryNumber": 620,
+            "subCategoryName": "Dynamic Content",
+            "description": "URLs that are generated dynamically by a Web server."
+          },
+          {
+            "subcategoryNumber": 621,
+            "subCategoryName": "Meaningless Content",
+            "description": "Sites that cannot be definitively categorized due to lack of or ambiguous content."
+          },
+          {
+            "subcategoryNumber": 622,
+            "subCategoryName": "Folklore",
+            "description": "UFOs, ghosts, cryptids, telekinesis, urban legends, and myths."
+          },
+          {
+            "subcategoryNumber": 623,
+            "subCategoryName": "Web Chat",
+            "description": "Sites that host Web chat services, or that support or provide information about chat via HTTP or IRC."
+          },
+          {
+            "subcategoryNumber": 624,
+            "subCategoryName": "Instant Messaging",
+            "description": "Sites that host Web chat services and sites that allow users to communicate in real-time over the Internet."
+          },
+          {
+            "subcategoryNumber": 625,
+            "subCategoryName": "Newsgroups and Message Boards",
+            "description": "Sites that primarily offer access to newsgroups, messaging or bulletin board systems, or group blogs where participants can post comments, hold discussions, or seek opinions or expertise on a variety of topics."
+          },
+          {
+            "subcategoryNumber": 626,
+            "subCategoryName": "Digital Postcards",
+            "description": "Sites that enable the sending and receiving of digital postcards and greeting cards."
+          },
+          {
+            "subcategoryNumber": 627,
+            "subCategoryName": "Child Education",
+            "description": "Sites developed for children age 12 and under. Includes educational games, tools, organizations and schools."
+          },
+          {
+            "subcategoryNumber": 628,
+            "subCategoryName": "Real Estate",
+            "description": "Sites that provide information on renting, buying, or selling real estate or properties."
+          },
+          {
+            "subcategoryNumber": 629,
+            "subCategoryName": "Restaurant and Dining",
+            "description": "Sites that list, review, discuss, advertise and promote food, catering, dining services, cooking and recipes."
+          },
+          {
+            "subcategoryNumber": 630,
+            "subCategoryName": "Personal Websites and Blogs",
+            "description": "Sites consisting primarily of user-generated content like personal information, opinions and ideas of the owners. These sites do not represent businesses, institutions or governmental entities."
+          },
+          {
+            "subcategoryNumber": 631,
+            "subCategoryName": "Content Servers",
+            "description": "Servers that provide commercial hosting for a variety of content such as images and media files."
+          },
+          {
+            "subcategoryNumber": 632,
+            "subCategoryName": "Domain Parking",
+            "description": "Sites that are placeholders of domains and typically provide advertising or meaningless content."
+          },
+          {
+            "subcategoryNumber": 633,
+            "subCategoryName": "Personal Privacy",
+            "description": "Sites providing online banking, trading, health care, and others that contain personal privacy information."
+          }
+        ]
+      },
+      {
+        "mainCategoryNumber": 7,
+        "mainCategoryName": "Unrated",
+        "subcategories": [
+          {
+            "subcategoryNumber": 700,
+            "subCategoryName": "Unrated",
+            "description": "Unrated"
+          }
+        ]
+      }
+    ]
+  }
+  
