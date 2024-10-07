@@ -5,6 +5,7 @@ from blocksi_dict import blocksipolicies
 from color_lib import cprint
 
 blockers = ['blocksi']
+blockerDict = dict()
 
 websitetocheck = input("\033[93m{}\033[00m".format("enter a website to check: "))
 websitetocheck = str(websitetocheck)
@@ -58,7 +59,7 @@ def blocksi_check(website):
         # print(error)
         return False
 
-def resultprocessor(website):
+def blocksiresultprocessor(website):
     # we store results in an array within a dictionary.
     # for example {'blocksi': array_here, 'lightspeed': array_here}
     # blocksi check
@@ -72,22 +73,25 @@ def resultprocessor(website):
         print('no info')
 
     # compile to dictionary
-    blockerDict = dict()
     for count in range(0, len(blockers)):
         currentArrow = blockers[count]
         blockerDict.update({currentArrow: locals()[f"{currentArrow}Collect"]})
-    return blockerDict
 
+# final result collection
 def resultcollection(website):
-    resultDict = resultprocessor(website)
-    # we now process the blocksi output
-    blocksiArray = resultDict['blocksi']
+    # here, we run all result processors and give the array to resultcollection to process
+    blocksiresultprocessor(website)
+    
+    # we now process the blocksi output 
+    blocksiArray = blockerDict['blocksi'] # retrieve array from the dictionary
     def blocksiBlockPossibilityWrapper():
         blocksiBlockPossibility = blocksipolicies[blocksiArray[3]]
         if blocksiBlockPossibility == 1:
             return cprint['red'] + 'Possibly Blocked'
         else:
             return cprint['green'] + 'Possibly Unblocked'
+    
+    # final output to stdout
     divider = cprint['cyan'] + '-----------------------------'
     print(divider)##############
     print(cprint['yellow'] + f'website you looked up: {websitetocheck}')
